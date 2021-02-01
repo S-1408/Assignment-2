@@ -1,0 +1,12 @@
+
+<div id="content">
+  <div>
+    <input type="text" id="search" placeholder="Search employee Name..." [(ngModel)]="nameSearch">
+
+  </div>
+
+
+    <app-users-list [searchName]="nameSearch"  ></app-users-list>
+
+
+</div>

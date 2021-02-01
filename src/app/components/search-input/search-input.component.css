@@ -1,0 +1,29 @@
+body{
+  color:white;
+  text-align: center;
+  max-height: 960vh;
+}
+#content{
+  margin:0 auto;
+  display: grid;
+  row-gap: 10px;
+}
+#content div{
+background-color: rgb(206, 194, 216);
+padding: 50px;
+text-align: center;
+}
+/* #content div:nth-child(even){
+  background-color:none ;
+
+  padding: 45px;
+} */
+
+input{
+  font-size:20px;
+  border:2px solid pink;
+  padding:20px;
+  border-radius: 15px;
+}
+
+
